@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>테이블 <small>10번</small></h1>
+	
+	<table border="1" width = "500" height="500">
+		<tr>
+			<td align = "center" colspan = "5">1</td>
+			
+		</tr>
+		<tr>
+			<td align = "center" rowspan = "4">6</td>
+			<td align = "center" colspan = "2">7</td>
+			<td align = "center" colspan = "2">9</td>
+		</tr>
+		<tr>
+			
+			<td align = "center">12</td>
+			<td align = "center">13</td>
+			<td align = "center" rowspan = "2">14</td>
+			<td align = "center">15</td>
+		</tr>
+		<tr>
+			
+			<td align = "center" rowspan = "2">17</td>
+			<td align = "center">18</td>
+			
+			<td align = "center">20</td>
+		</tr>
+		<tr>
+			
+			
+			<td align = "center">23</td>
+			<td align = "center" colspan = "2">24</td>
+			
+		</tr>
+	</table>
+	
+	
+	
+	
+	
+	<!-- 14x17 테이블을 생성하시오. -->
+	<h1>테이블 <small>11번</small></h1>
+	
+	<table border="1" width = "1000" height = "500">	
+	<!-- 1행 -->
+	<tr>
+		<td rowspan = "4" align = "center">번호</td>
+		<td align = "center">일자</td>
+		<td colspan = "2" align = "center">3월 31일</td>
+		<td colspan = "2" align = "center">4월 01일</td>
+		<td colspan = "2" align = "center">4월 02일</td>
+		<td colspan = "2" align = "center">4월 03일</td>
+		<td colspan = "2" align = "center">4월 04일</td>	
+		<td width = 40 rowspan = "4" align = "center">출석일</td>
+		<td width = 40 rowspan = "4" align = "center">결석</td>
+		<td width = 40 rowspan = "4" align = "center">지각</td>
+		<td width = 40 rowspan = "4" align = "center">조퇴</td>
+		<td width = 40 rowspan = "4" align = "center">확인</td>
+	</tr>
+	<!-- 2행 -->
+	<tr>
+		
+		<td align = "center">기관장 결재</td>
+		<td colspan = "2" align = "center"></td>	
+		<td colspan = "2" align = "center"></td>
+		<td colspan = "2" align = "center"></td>	
+		<td colspan = "2" align = "center"></td>
+		<td colspan = "2" align = "center"></td>
+		
+	
+	</tr>
+	<!-- 3행 -->
+	<tr>
+		
+		<td rowspan = "2" align = "center">확인(지도교수)</td>
+		<td align = "center">시작</td>	
+		<td align = "center">종료</td>
+		<td align = "center">시작</td>	
+		<td align = "center">종료</td>
+		<td align = "center">시작</td>	
+		<td align = "center">종료</td>
+		<td align = "center">시작</td>	
+		<td align = "center">종료</td>
+		<td align = "center">시작</td>	
+		<td align = "center">종료</td>
+	
+	</tr>
+	<!-- 4행 -->
+	<tr>
+		
+		
+		<td height = "30" align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+	</tr>
+	<!-- 5행 -->
+	<tr>
+		<td align = "center">1</td>
+		<td align = "center">강한님</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 6행 -->
+	<tr>
+		<td align = "center">2</td>
+		<td align = "center">권승도</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 7행 -->
+	<tr>
+		<td align = "center">3</td>
+		<td align = "center">김경빈</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 8행 -->
+	<tr>
+		<td align = "center">4</td>
+		<td align = "center">김용기</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 9행 -->
+	<tr>
+		<td align = "center">5</td>
+		<td align = "center">김용식</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 10행 -->
+	<tr>
+		<td align = "center">6</td>
+		<td align = "center">김은서</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 11행 -->
+	<tr>
+		<td align = "center">7</td>
+		<td align = "center">김재호</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 12행 -->
+	<tr>
+		<td align = "center">8</td>
+		<td align = "center">김정현</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 13행 -->
+	<tr>
+		<td align = "center">9</td>
+		<td align = "center">김준형</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+	<!-- 14행 -->
+	<tr>
+		<td align = "center">10</td>
+		<td align = "center">김찬호</td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>	
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+		<td align = "center"></td>
+	</tr>
+		
+	
+	
+	
+	
+	
+	</table>
+</body>
+</html>

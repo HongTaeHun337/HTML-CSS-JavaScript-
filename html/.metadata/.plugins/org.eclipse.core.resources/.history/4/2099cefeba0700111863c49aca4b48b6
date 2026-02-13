@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>시작 페이지</h1>
+</body>
+</html>
+
+
+<!-- 
+https://n.news.naver.com/mnews/ranking/article/052/0002313902?ntype=RANKING
+1. https://, http://
+	- Hyper Text Transfer Protocol Security
+	- 프로토콜(Protocol), 통신규약
+	- 브라우저와 웹서버간의 데이터를 주고 받을 때 사용하는 규칙(약속)
+	
+2. localhost(도메인), naver.com(도메인), IP 주소(XXX.XXX.XXX.XXX)
+
+	- 브라우저 232.45.187.234 입력 > DNS 서버 요청 발생
+
+ -->

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--  ex02_whitespace.html  -->
+	<!-- 
+	
+		공백 문자 처리 방식
+		- 브라우저가 소스상의 공백 문자를 어떻게 처리(출력) 하는지?
+		- 스페이스, 탭, 개행문자	
+	
+	 -->
+	 
+	 하나      둘					
+	 
+	 셋<hr>
+	 넷<br>
+	 다섯
+	 
+	 
+</body>
+</html>
