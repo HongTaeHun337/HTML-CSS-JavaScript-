@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 
+        float
+        - 요소를 일반적인 문서 흐름(normal flow)에서 벗어나 컨테이너의 왼쪽(left)이나 오른쪽(right)으로 띄워 배치하는 위치 지정 속성입니다.
+        - 요소가 자기 위치에 출력되지 않고 > 자신이 속한 라인의 맨왼쪽끝/오른쪽끝에 출력된다.
+        */
+
+        #p1 > span {
+            background-color: dodgerblue;
+            float: right;
+        }
+        #p2 > img {
+            float: right;
+        }
+
+        h1 {
+            border-bottom: 1px dashed #555;
+            /* text-align: center;*/
+        }
+
+        h1 > small {
+            float: right;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ex25_float.html -->
+    <h1>텍스트 <small>float</small></h1>
+    
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ad voluptatum provident nobis sapiente, delectus asperiores quas voluptatem ab illo obcaecati eos ipsam blanditiis sed rerum recusandae ea assumenda saepe similique. Impedit similique quas, accusamus dolor animi esse deserunt, excepturi aspernatur atque repudiandae **<span>홍길동</span>** praesentium error optio alias facere eaque facilis quaerat dignissimos, ipsa iure. Nostrum asperiores fugit iusto velit, id odio delectus officia, dolorem magnam praesentium illo fuga perspiciatis ipsam nihil, aliquid quibusdam? Animi accusantium vel debitis, at eaque nulla alias nobis sed natus quae ullam aliquid. Quidem quae earum nesciunt veniam. Error repudiandae iusto, fugit eum est eaque consectetur.</p>
+
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ad voluptatum provident nobis sapiente, delectus asperiores quas voluptatem ab illo obcaecati eos ipsam blanditiis sed rerum recusandae ea assumenda saepe similique. Impedit similique quas, accusamus dolor animi esse deserunt, excepturi aspernatur atque repudiandae **<img src="images/man_01.png">** praesentium error optio alias facere eaque facilis quaerat dignissimos, ipsa iure. Nostrum asperiores fugit iusto velit, id odio delectus officia, dolorem magnam praesentium illo fuga perspiciatis ipsam nihil, aliquid quibusdam? Animi accusantium vel debitis, at eaque nulla alias nobis sed natus quae ullam aliquid. Quidem quae earum nesciunt veniam. Error repudiandae iusto, fugit eum est eaque consectetur.</p>
+
+</body>
+</html>
