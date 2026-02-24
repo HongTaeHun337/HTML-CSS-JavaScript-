@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        html, body {
+            
+            height: 100%;
+        } */
+
+        body {
+            background-color: #DDDDDD;
+            margin: 0px;
+                     
+        }
+
+        main {
+            background-color: #FFFFFF;
+            width: 800px;
+            /* height: 100%; */
+            height: 100vh; /* viewport height: 눈에 보이는 창을 기준 상대값 */
+
+            margin: 0px auto;
+            /* static일때 와 동일 */
+            position: relative;
+            left: 0px;
+            top: 0px;
+        }
+
+        main > header {
+            border-bottom: 1px solid #999 ;
+            padding: 30px;
+            text-align: center;
+        }
+
+        main > header > #search {
+            border: 1px solid #999;
+            outline: none;
+            font-size: 1.5em;
+            padding: 5px;
+            width: 400px;
+        }
+
+        main > section {
+            padding: 0px 50px;
+        }
+
+        #search:focus + #list {
+            display: block;
+
+        }
+
+        #list {
+            /* position: absolute;
+            left: 194px;
+            top: 69px; */
+
+            /* position: relative;
+            left: 164px;
+            top: -1px; */
+
+            /*
+                absolute + relative 
+            
+                부모: relative
+                자식: absolute
+            */
+            
+            position: absolute;
+            left: 194px;
+            top: 69px;
+
+            border: 1px solid #999;
+            width: 400px;
+            background-color: white;
+            padding: 5px;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- ex31_position.html -->
+    <main>
+        <header>
+            <input type="text" id="search">
+            <div id="list">
+                <div class="item">자바</div>
+                <div class="item">자바 설치</div>
+                <div class="item">자바 JDK 설치</div>
+                <div class="item">자바 실행하기</div>
+                <div class="item">자바 프로그램 구현</div>
+            </div>
+        </header>
+        <section>
+            <h1>콘텐츠</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolorem perferendis tenetur velit hic necessitatibus ex quisquam repellendus exercitationem aliquid quod quam odio doloremque beatae quaerat, praesentium culpa dolore quis?</p>
+            <p>Delectus fugit eius totam, voluptate at numquam nemo nam accusamus cupiditate magnam dignissimos maiores, dolore qui, velit distinctio! Itaque molestias doloremque eveniet nulla, nisi doloribus officiis nam minus. Alias, maxime?</p>
+            <p>Exercitationem natus necessitatibus mollitia cumque alias ab laboriosam repudiandae, reprehenderit asperiores dicta! Enim, fugit velit tempora sint ad nesciunt obcaecati ab ipsum doloremque est minus inventore dolorem earum fugiat placeat.</p>
+        </section>
+    </main>
+    
+   
+
+</body>
+</html>
