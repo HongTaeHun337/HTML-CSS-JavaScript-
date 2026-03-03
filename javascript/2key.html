@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #id {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #exp {
+            border: none;
+            outline: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 2key.html -->
+    <h1>회원가입</h1>
+    <div>아이디: </div>
+    <input type="text" id="id">
+    <input type="text" id="exp">
+
+    
+    <script>
+
+        var txt1 = document.getElementById('id');
+        var txt2 = document.getElementById('exp');
+
+        txt1.onkeyup = m1;
+
+        function m1() {
+
+            if (txt1.value.length < 4){
+                txt2.value = "아이디가 너무 짧습니다.";
+            } else if (txt1.value.length < 12){
+                txt2.value = "적합한 아이디입니다."
+            } else if (txt1.value.length > 12){
+                txt2.value = "아이디가 너무 깁니다."
+            }
+        }
+    
+    </script>
+</body>
+</html>
