@@ -47,9 +47,18 @@
 
         function m3(event) {
             var key = event.key
-            
-            if(event.onkeyCode == 1){
-                width += 5;
+
+            if (key >=1 && key <= 5) {
+                var imgsize = document.getElementById('cat' + key);
+
+                imgsize.width += 5;
+            } else if (key == 'Escape') {
+                document.getElementById('cat1').width = 100;
+                document.getElementById('cat2').width = 100;
+                document.getElementById('cat3').width = 100;
+                document.getElementById('cat4').width = 100;
+                document.getElementById('cat5').width = 100;
+                
             }
         }
 
