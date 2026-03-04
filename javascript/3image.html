@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+
+</head>
+<body>
+    <h1>고양이</h1>
+    <img src="images/catty01.png" id="cat1" width="100">
+    <img src="images/catty02.png" id="cat2" width="100">
+    <img src="images/catty03.png" id="cat3" width="100">
+    <img src="images/catty04.png" id="cat4" width="100">
+    <img src="images/catty05.png" id="cat5" width="100">
+
+    <script>
+        var img1 = document.getElementById('cat1')
+        var img2 = document.getElementById('cat2')
+        var img3 = document.getElementById('cat3')
+        var img4 = document.getElementById('cat4')
+        var img5 = document.getElementById('cat5')
+
+        img1.onmouseover = m1;
+        img2.onmouseover = m1;
+        img3.onmouseover = m1;
+        img4.onmouseover = m1;
+        img5.onmouseover = m1;
+
+        img1.onclick = m2;
+        img2.onclick = m2;
+        img3.onclick = m2;
+        img4.onclick = m2;
+        img5.onclick = m2;
+
+        window.onkeydown = m3
+
+        function m1() { 
+            this.width += 5;
+        }
+        
+        function m2() {
+            this.width = '50';
+        }
+
+        function m3(event) {
+            var key = event.key
+            
+            if(event.onkeyCode == 1){
+                width += 5;
+            }
+        }
+
+    </script>
+</body>
+</html>
